@@ -63,17 +63,20 @@ function findLargest() {
             let grade;
 
             if (score >= 90) {
-                grade = "A";
+                grade = "A+";
             }
 
             else if (score >= 80) {
-                grade = "B";               
+                grade = "A";               
             }
             else if (score >= 70) {
-                grade = "C";
+                grade = "B";
             }
             else if (score >= 60) {
-                grade = "D";        
+                grade = "C";        
+            }
+            else if (score >= 50) {
+                grade = "D";
             }
             else {
                 grade = "F";
