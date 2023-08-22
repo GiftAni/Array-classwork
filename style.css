@@ -1,0 +1,36 @@
+* {
+    font-family: poppins;
+    max-width: 100%;
+}
+
+body {
+    background: none;
+    background-color: #ffffff;
+}
+
+.first-work button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f505f5 ;
+    box-shadow: -5px -5px 12px #e7b9dc93,
+                 5px 5px 12px rgba(179, 133, 172, 0.411);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.first-work h1{
+    color: #f505f5;
+}
+.first-work label{
+    color: #f505f5;
+    font-weight: 500;
+    font-size: 25px;
+}
+.first-work p{
+    color: #f505f5;
+    font-weight: 400;
+    font-size: 15px;
+}
