@@ -5,16 +5,22 @@
 
 body {
     background: none;
-    background-color: #ffffff;
+    background-color: #0b000c;
 }
 
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 .first-work button {
     width: 100px;
     height: 50px;
     border: none;
     border-radius: 10px;
     background-color: #f505f5 ;
-    box-shadow: -5px -5px 12px #e7b9dc93,
+    box-shadow: -5px -5px 12px #e7b9dc31,
                  5px 5px 12px rgba(179, 133, 172, 0.411);
     color: #ffffff;
     font-weight: 600;
@@ -31,6 +37,101 @@ body {
 }
 .first-work p{
     color: #f505f5;
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.second-work button{
+    width: 100px;
+    margin-left: 20px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f505f5 ;
+    box-shadow: -5px -5px 12px #e7b9dc3d,
+                 5px 5px 12px rgba(179, 133, 172, 0.411);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px; 
+}
+.second-work h1{
+    color: #f505f5;
+}
+.second-work label{
+    color: #f505f5;
+    font-weight: 500;
+    font-size: 25px;
+}
+.second-work p{
+    color: #f505f5;
+    font-weight: 500;
+    font-size: 18px;
+} 
+
+
+
+.third-work button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f505f5 ;
+    box-shadow: -5px -5px 12px #e7b9dc23,
+                 5px 5px 12px rgba(179, 133, 172, 0.192);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px; 
+    margin-top: 20px;
+}
+.third-work h1{
+    color: #f505f5;
+}
+.third-work label{
+    color: #f505f5;
+    font-weight: 500;
+    font-size: 25px;
+}
+.third-work p{
+    color: #f505f5;
+    font-weight: 500;
+    font-size: 18px;
+} 
+.third-work input{
+    background: none;
+    border: #f505f5 2px solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    color: #f505f5;
+    margin-left: 10px;
+}
+
+
+.fourth-work button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f505f5 ;
+    box-shadow: -5px -5px 12px #e7b9dc2c,
+                 5px 5px 12px rgba(179, 133, 172, 0.219);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.fourth-work h1{
+    color: #f505f5;
+}
+.fourth-work label{
+    color: #f505f5;
+    font-weight: 500;
+    font-size: 25px;
+}
+.fourth-work p{
+    color: #f505f5;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 50px;
 }
