@@ -1,25 +1,34 @@
 * {
     font-family: poppins;
     max-width: 100%;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
 }
 
 body {
     background: none;
-    background-color: #cacaca44;
+    /* background-image: url(img/pexels-photo-14702925.webp); */
+    
+    background-size:cover;
+    background-repeat:no-repeat;
+
 }
 
 .Container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 20px;
+    text-align: center;
+    
+    position: relative;
 }
 .first-work button {
     width: 100px;
     height: 50px;
     border: none;
     border-radius: 10px;
-    background-color: #f505f5 ;
+    background-color: #0581f5 ;
     box-shadow: -5px -5px 12px #e7b9dc31,
                  5px 5px 12px rgba(179, 133, 172, 0.411);
     color: #ffffff;
@@ -28,15 +37,15 @@ body {
     margin-left: 20px;
 }
 .first-work h1{
-    color: #f505f5;
+    color: #0581f5 ;
 }
 .first-work label{
-    color: #f505f5;
+    color:#0581f5 ;
     font-weight: 500;
     font-size: 25px;
 }
 .first-work p{
-    color: #f505f5;
+    color: #0581f5 ;
     font-weight: 500;
     font-size: 18px;
 }
@@ -48,7 +57,7 @@ body {
     height: 50px;
     border: none;
     border-radius: 10px;
-    background-color: #f505f5 ;
+    background-color: #0581f5 ;
     box-shadow: -5px -5px 12px #e7b9dc3d,
                  5px 5px 12px rgba(179, 133, 172, 0.411);
     color: #ffffff;
@@ -56,15 +65,15 @@ body {
     font-size: 16px; 
 }
 .second-work h1{
-    color: #f505f5;
+    color: #0581f5 ;
 }
 .second-work label{
-    color: #f505f5;
+    color: #0581f5 ;
     font-weight: 500;
     font-size: 25px;
 }
 .second-work p{
-    color: #f505f5;
+    color: #0581f5 ;
     font-weight: 500;
     font-size: 18px;
 } 
@@ -76,7 +85,7 @@ body {
     height: 50px;
     border: none;
     border-radius: 10px;
-    background-color: #f505f5 ;
+    background-color: #0581f5  ;
     box-shadow: -5px -5px 12px #e7b9dc23,
                  5px 5px 12px rgba(179, 133, 172, 0.192);
     color: #ffffff;
@@ -85,25 +94,25 @@ body {
     margin-top: 20px;
 }
 .third-work h1{
-    color: #f505f5;
+    color: #0581f5 ;
 }
 .third-work label{
-    color: #f505f5;
+    color: #0581f5 ;
     font-weight: 500;
     font-size: 25px;
 }
 .third-work p{
-    color: #f505f5;
+    color: #0581f5 ;
     font-weight: 500;
     font-size: 18px;
 } 
 .third-work input{
     background: none;
-    border: #f505f5 2px solid;
+    border: #0581f5 2px solid;
     border-radius: 10px;
     width: 200px;
     height: 30px;
-    color: #f505f5;
+    color: #0581f5 ;
     font-size: 15px;
     font-weight: 500;
     margin-left: 10px;
@@ -115,7 +124,7 @@ body {
     height: 50px;
     border: none;
     border-radius: 10px;
-    background-color: #f505f5 ;
+    background-color: #0581f5 ;
     box-shadow: -5px -5px 12px #e7b9dc2c,
                  5px 5px 12px rgba(179, 133, 172, 0.219);
     color: #ffffff;
@@ -124,16 +133,34 @@ body {
     margin-left: 20px;
 }
 .fourth-work h1{
-    color: #f505f5;
+    color: #0581f5 ;
 }
 .fourth-work label{
-    color: #f505f5;
+    color:#0581f5 ;
     font-weight: 500;
     font-size: 25px;
 }
 .fourth-work p{
-    color: #f505f5;
+    color: #0581f5 ;
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 50px;
+}
+.image img{
+    position: absolute;
+    position: fixed;
+}
+.image1{
+    position: relative;
+    top: 100px;
+    /* left: 800px; */
+}
+.image1 img{
+    margin-left: 749px;
+    width: 600px;
+}
+.text{
+    position: relative;
+    top: 300px;
+    color: #000000;
 }

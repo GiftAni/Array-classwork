@@ -87,6 +87,11 @@ function findLargest() {
     }
 
 
+const text = document.getElementById("text");
+const hand = document.getElementById("hand");
 
-
+window.addEventListener('scroll',() => {
+    let value = window.scrollY;
+    text.style.top = scrollvalue * 0.5 + 'px';
+})
 
